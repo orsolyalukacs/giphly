@@ -1,0 +1,48 @@
+/* masonry.css */
+.dw {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-column-gap: 0;
+	-moz-column-gap: 0;
+	column-gap: 0;
+	position: relative;
+}
+.dw * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@media (min-width: 768px) {
+	.dw {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+}
+@media (min-width: 992px) {
+	.dw {
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+	}
+}
+@media (min-width: 1500px) {
+	.dw {
+		-webkit-column-count: 4;
+		-moz-column-count: 4;
+		column-count: 4;
+	}
+}
+.gif-image {
+	margin: 0;
+	padding: 5px;
+	max-width: 340px;
+	max-height: 250px;
+	/* object-fit: cover; */
+}
+@media (min-width: 768px) {
+	.gif-image {
+		-webkit-column-break-inside: avoid;
+		page-break-inside: avoid;
+		break-inside: avoid;
+	}
+}
