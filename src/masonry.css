@@ -36,7 +36,8 @@
 	margin: 0;
 	padding: 5px;
 	max-width: 340px;
-	max-height: 250px;
+	max-height: 180px;
+	min-width: 208px;
 	/* object-fit: cover; */
 }
 @media (min-width: 768px) {
